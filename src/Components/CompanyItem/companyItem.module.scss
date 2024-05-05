@@ -1,0 +1,31 @@
+.companyItem {
+  padding: 5px;
+  display: flex;
+  gap: 20px;
+  &__header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    &_94px {
+      height: 50px;
+      margin-bottom: 10px;
+    }
+  }
+  &__currency {
+    display: block;
+    margin-top: 10px;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    &__list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+      height: 50px;
+      margin-bottom: 10px;
+    }
+  }
+}
